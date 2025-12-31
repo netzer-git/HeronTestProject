@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "azure-model-activation"
 version = "0.1.0"
-description = "Azure OpenAI model activation (single-request connectivity check)"
+description = "Evaluation Agent Benchmark and Azure OpenAI model activation"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
@@ -13,6 +13,8 @@ authors = [{ name = "Contributors" }]
 dependencies = [
   "python-dotenv>=1.0",
   "openai>=1.40",
+  "pydantic>=2.0",
+  "matplotlib",
 ]
 
 [project.optional-dependencies]
@@ -23,6 +25,7 @@ dev = [
 
 [project.scripts]
 azure-model-activate = "azure_model_activation.cli:main"
+benchmark-agent = "benchmark.cli:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
