@@ -1,0 +1,886 @@
+{
+  "configuration": {
+    "evaluation_rules": {
+      "min_score_threshold": 0.5,
+      "required_keywords": [
+        "creative_writing",
+        "math",
+        "coding-cyber"
+      ]
+    },
+    "models_to_evaluate": [
+      "target-model-3alpha",
+      "target-model-3beta"
+    ]
+  },
+  "mock_results": {
+    "target-model-3alpha": {
+      "model_name": "target-model-3alpha",
+      "run_num": 1,
+      "cases": [
+        {
+          "case_id": 1,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber",
+            "math"
+          ],
+          "score": 0.81
+        },
+        {
+          "case_id": 2,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.87
+        },
+        {
+          "case_id": 3,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.82
+        },
+        {
+          "case_id": 4,
+          "level": "easy",
+          "keywords": [
+            "math",
+            "coding-cyber"
+          ],
+          "score": 0.8
+        },
+        {
+          "case_id": 5,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber",
+            "creative_writing"
+          ],
+          "score": 0.8
+        },
+        {
+          "case_id": 6,
+          "level": "easy",
+          "keywords": [
+            "creative_writing"
+          ],
+          "score": 0.8
+        },
+        {
+          "case_id": 7,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber",
+            "math"
+          ],
+          "score": 0.8
+        },
+        {
+          "case_id": 8,
+          "level": "easy",
+          "keywords": [
+            "creative_writing",
+            "math"
+          ],
+          "score": 0.84
+        },
+        {
+          "case_id": 9,
+          "level": "easy",
+          "keywords": [
+            "math",
+            "creative_writing"
+          ],
+          "score": 0.77
+        },
+        {
+          "case_id": 10,
+          "level": "easy",
+          "keywords": [
+            "creative_writing"
+          ],
+          "score": 0.95
+        },
+        {
+          "case_id": 11,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.79
+        },
+        {
+          "case_id": 12,
+          "level": "easy",
+          "keywords": [
+            "math"
+          ],
+          "score": 0.91
+        },
+        {
+          "case_id": 13,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber",
+            "math"
+          ],
+          "score": 0.84
+        },
+        {
+          "case_id": 14,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.88
+        },
+        {
+          "case_id": 15,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.81
+        },
+        {
+          "case_id": 16,
+          "level": "easy",
+          "keywords": [
+            "creative_writing"
+          ],
+          "score": 0.76
+        },
+        {
+          "case_id": 17,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber",
+            "creative_writing"
+          ],
+          "score": 0.91
+        },
+        {
+          "case_id": 18,
+          "level": "easy",
+          "keywords": [
+            "creative_writing",
+            "coding-cyber"
+          ],
+          "score": 0.86
+        },
+        {
+          "case_id": 19,
+          "level": "easy",
+          "keywords": [
+            "creative_writing"
+          ],
+          "score": 0.95
+        },
+        {
+          "case_id": 20,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.89
+        },
+        {
+          "case_id": 21,
+          "level": "medium",
+          "keywords": [
+            "coding-cyber",
+            "creative_writing"
+          ],
+          "score": 0.75
+        },
+        {
+          "case_id": 22,
+          "level": "medium",
+          "keywords": [
+            "creative_writing",
+            "math"
+          ],
+          "score": 0.68
+        },
+        {
+          "case_id": 23,
+          "level": "medium",
+          "keywords": [
+            "math"
+          ],
+          "score": 0.82
+        },
+        {
+          "case_id": 24,
+          "level": "medium",
+          "keywords": [
+            "creative_writing",
+            "coding-cyber"
+          ],
+          "score": 0.81
+        },
+        {
+          "case_id": 25,
+          "level": "medium",
+          "keywords": [
+            "math",
+            "coding-cyber"
+          ],
+          "score": 0.85
+        },
+        {
+          "case_id": 26,
+          "level": "medium",
+          "keywords": [
+            "coding-cyber",
+            "creative_writing"
+          ],
+          "score": 0.67
+        },
+        {
+          "case_id": 27,
+          "level": "medium",
+          "keywords": [
+            "math"
+          ],
+          "score": 0.75
+        },
+        {
+          "case_id": 28,
+          "level": "medium",
+          "keywords": [
+            "math"
+          ],
+          "score": 0.74
+        },
+        {
+          "case_id": 29,
+          "level": "medium",
+          "keywords": [
+            "math",
+            "creative_writing"
+          ],
+          "score": 0.74
+        },
+        {
+          "case_id": 30,
+          "level": "medium",
+          "keywords": [
+            "creative_writing"
+          ],
+          "score": 0.69
+        },
+        {
+          "case_id": 31,
+          "level": "medium",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.69
+        },
+        {
+          "case_id": 32,
+          "level": "medium",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.81
+        },
+        {
+          "case_id": 33,
+          "level": "medium",
+          "keywords": [
+            "coding-cyber",
+            "creative_writing"
+          ],
+          "score": 0.73
+        },
+        {
+          "case_id": 34,
+          "level": "medium",
+          "keywords": [
+            "creative_writing",
+            "math"
+          ],
+          "score": 0.82
+        },
+        {
+          "case_id": 35,
+          "level": "medium",
+          "keywords": [
+            "coding-cyber",
+            "math"
+          ],
+          "score": 0.73
+        },
+        {
+          "case_id": 36,
+          "level": "medium",
+          "keywords": [
+            "creative_writing"
+          ],
+          "score": 0.73
+        },
+        {
+          "case_id": 37,
+          "level": "medium",
+          "keywords": [
+            "creative_writing",
+            "math"
+          ],
+          "score": 0.8
+        },
+        {
+          "case_id": 38,
+          "level": "medium",
+          "keywords": [
+            "coding-cyber",
+            "creative_writing"
+          ],
+          "score": 0.78
+        },
+        {
+          "case_id": 39,
+          "level": "medium",
+          "keywords": [
+            "math",
+            "coding-cyber"
+          ],
+          "score": 0.73
+        },
+        {
+          "case_id": 40,
+          "level": "medium",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.85
+        },
+        {
+          "case_id": 41,
+          "level": "hard",
+          "keywords": [
+            "coding-cyber",
+            "creative_writing"
+          ],
+          "score": 0.64
+        },
+        {
+          "case_id": 42,
+          "level": "hard",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.64
+        },
+        {
+          "case_id": 43,
+          "level": "hard",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.73
+        },
+        {
+          "case_id": 44,
+          "level": "hard",
+          "keywords": [
+            "creative_writing",
+            "coding-cyber"
+          ],
+          "score": 0.67
+        },
+        {
+          "case_id": 45,
+          "level": "hard",
+          "keywords": [
+            "coding-cyber",
+            "math"
+          ],
+          "score": 0.62
+        },
+        {
+          "case_id": 46,
+          "level": "hard",
+          "keywords": [
+            "creative_writing",
+            "coding-cyber"
+          ],
+          "score": 0.69
+        },
+        {
+          "case_id": 47,
+          "level": "hard",
+          "keywords": [
+            "coding-cyber",
+            "creative_writing"
+          ],
+          "score": 0.65
+        },
+        {
+          "case_id": 48,
+          "level": "hard",
+          "keywords": [
+            "math"
+          ],
+          "score": 0.58
+        },
+        {
+          "case_id": 49,
+          "level": "hard",
+          "keywords": [
+            "coding-cyber",
+            "math"
+          ],
+          "score": 0.63
+        },
+        {
+          "case_id": 50,
+          "level": "hard",
+          "keywords": [
+            "creative_writing",
+            "math"
+          ],
+          "score": 0.58
+        }
+      ]
+    },
+    "target-model-3beta": {
+      "model_name": "target-model-3beta",
+      "run_num": 1,
+      "cases": [
+        {
+          "case_id": 1,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber",
+            "math"
+          ],
+          "score": 0.91
+        },
+        {
+          "case_id": 2,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.87
+        },
+        {
+          "case_id": 3,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.86
+        },
+        {
+          "case_id": 4,
+          "level": "easy",
+          "keywords": [
+            "math",
+            "coding-cyber"
+          ],
+          "score": 0.81
+        },
+        {
+          "case_id": 5,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber",
+            "creative_writing"
+          ],
+          "score": 0.93
+        },
+        {
+          "case_id": 6,
+          "level": "easy",
+          "keywords": [
+            "creative_writing"
+          ],
+          "score": 0.91
+        },
+        {
+          "case_id": 7,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber",
+            "math"
+          ],
+          "score": 0.91
+        },
+        {
+          "case_id": 8,
+          "level": "easy",
+          "keywords": [
+            "creative_writing",
+            "math"
+          ],
+          "score": 0.85
+        },
+        {
+          "case_id": 9,
+          "level": "easy",
+          "keywords": [
+            "math",
+            "creative_writing"
+          ],
+          "score": 0.93
+        },
+        {
+          "case_id": 10,
+          "level": "easy",
+          "keywords": [
+            "creative_writing"
+          ],
+          "score": 0.92
+        },
+        {
+          "case_id": 11,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.81
+        },
+        {
+          "case_id": 12,
+          "level": "easy",
+          "keywords": [
+            "math"
+          ],
+          "score": 0.94
+        },
+        {
+          "case_id": 13,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber",
+            "math"
+          ],
+          "score": 0.93
+        },
+        {
+          "case_id": 14,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.75
+        },
+        {
+          "case_id": 15,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.83
+        },
+        {
+          "case_id": 16,
+          "level": "easy",
+          "keywords": [
+            "creative_writing"
+          ],
+          "score": 0.79
+        },
+        {
+          "case_id": 17,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber",
+            "creative_writing"
+          ],
+          "score": 0.81
+        },
+        {
+          "case_id": 18,
+          "level": "easy",
+          "keywords": [
+            "creative_writing",
+            "coding-cyber"
+          ],
+          "score": 0.9
+        },
+        {
+          "case_id": 19,
+          "level": "easy",
+          "keywords": [
+            "creative_writing"
+          ],
+          "score": 0.83
+        },
+        {
+          "case_id": 20,
+          "level": "easy",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.79
+        },
+        {
+          "case_id": 21,
+          "level": "medium",
+          "keywords": [
+            "coding-cyber",
+            "creative_writing"
+          ],
+          "score": 0.7
+        },
+        {
+          "case_id": 22,
+          "level": "medium",
+          "keywords": [
+            "creative_writing",
+            "math"
+          ],
+          "score": 0.77
+        },
+        {
+          "case_id": 23,
+          "level": "medium",
+          "keywords": [
+            "math"
+          ],
+          "score": 0.84
+        },
+        {
+          "case_id": 24,
+          "level": "medium",
+          "keywords": [
+            "creative_writing",
+            "coding-cyber"
+          ],
+          "score": 0.71
+        },
+        {
+          "case_id": 25,
+          "level": "medium",
+          "keywords": [
+            "math",
+            "coding-cyber"
+          ],
+          "score": 0.74
+        },
+        {
+          "case_id": 26,
+          "level": "medium",
+          "keywords": [
+            "coding-cyber",
+            "creative_writing"
+          ],
+          "score": 0.82
+        },
+        {
+          "case_id": 27,
+          "level": "medium",
+          "keywords": [
+            "math"
+          ],
+          "score": 0.66
+        },
+        {
+          "case_id": 28,
+          "level": "medium",
+          "keywords": [
+            "math"
+          ],
+          "score": 0.65
+        },
+        {
+          "case_id": 29,
+          "level": "medium",
+          "keywords": [
+            "math",
+            "creative_writing"
+          ],
+          "score": 0.76
+        },
+        {
+          "case_id": 30,
+          "level": "medium",
+          "keywords": [
+            "creative_writing"
+          ],
+          "score": 0.79
+        },
+        {
+          "case_id": 31,
+          "level": "medium",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.69
+        },
+        {
+          "case_id": 32,
+          "level": "medium",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.82
+        },
+        {
+          "case_id": 33,
+          "level": "medium",
+          "keywords": [
+            "coding-cyber",
+            "creative_writing"
+          ],
+          "score": 0.8
+        },
+        {
+          "case_id": 34,
+          "level": "medium",
+          "keywords": [
+            "creative_writing",
+            "math"
+          ],
+          "score": 0.67
+        },
+        {
+          "case_id": 35,
+          "level": "medium",
+          "keywords": [
+            "coding-cyber",
+            "math"
+          ],
+          "score": 0.8
+        },
+        {
+          "case_id": 36,
+          "level": "medium",
+          "keywords": [
+            "creative_writing"
+          ],
+          "score": 0.68
+        },
+        {
+          "case_id": 37,
+          "level": "medium",
+          "keywords": [
+            "creative_writing",
+            "math"
+          ],
+          "score": 0.79
+        },
+        {
+          "case_id": 38,
+          "level": "medium",
+          "keywords": [
+            "coding-cyber",
+            "creative_writing"
+          ],
+          "score": 0.77
+        },
+        {
+          "case_id": 39,
+          "level": "medium",
+          "keywords": [
+            "math",
+            "coding-cyber"
+          ],
+          "score": 0.83
+        },
+        {
+          "case_id": 40,
+          "level": "medium",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.73
+        },
+        {
+          "case_id": 41,
+          "level": "hard",
+          "keywords": [
+            "coding-cyber",
+            "creative_writing"
+          ],
+          "score": 0.7
+        },
+        {
+          "case_id": 42,
+          "level": "hard",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.61
+        },
+        {
+          "case_id": 43,
+          "level": "hard",
+          "keywords": [
+            "coding-cyber"
+          ],
+          "score": 0.66
+        },
+        {
+          "case_id": 44,
+          "level": "hard",
+          "keywords": [
+            "creative_writing",
+            "coding-cyber"
+          ],
+          "score": 0.62
+        },
+        {
+          "case_id": 45,
+          "level": "hard",
+          "keywords": [
+            "coding-cyber",
+            "math"
+          ],
+          "score": 0.6
+        },
+        {
+          "case_id": 46,
+          "level": "hard",
+          "keywords": [
+            "creative_writing",
+            "coding-cyber"
+          ],
+          "score": 0.58
+        },
+        {
+          "case_id": 47,
+          "level": "hard",
+          "keywords": [
+            "coding-cyber",
+            "creative_writing"
+          ],
+          "score": 0.57
+        },
+        {
+          "case_id": 48,
+          "level": "hard",
+          "keywords": [
+            "math"
+          ],
+          "score": 0.7
+        },
+        {
+          "case_id": 49,
+          "level": "hard",
+          "keywords": [
+            "coding-cyber",
+            "math"
+          ],
+          "score": 0.69
+        },
+        {
+          "case_id": 50,
+          "level": "hard",
+          "keywords": [
+            "creative_writing",
+            "math"
+          ],
+          "score": 0.69
+        }
+      ]
+    }
+  }
+}
